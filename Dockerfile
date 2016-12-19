@@ -1,3 +1,3 @@
 FROM ubuntu:16.04
 
-RUN apt-get update && apt-get install -yy python-py++
+RUN apt-get update && apt-get install -yy python-py++ python-dev
